@@ -5,7 +5,34 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 3
-        h1 Titulo de primer nivel
+        h1 Procesamiento y visualización de información financiera
+
+      Separador
+      //- Inicio Tema3.1
+      .row
+        #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 3.1 Organización de datos financieros en hoja electrónica	
+
+
+      Separador
+      //- Inicio Tema3.2
+      .row
+        #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 3.2 Fórmulas básicas para cálculos financieros
+
+      Separador
+      //- Inicio Tema3.3
+      .row
+        #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 3.3 Tablas comparativas, gráficos y tableros	
+
+
+      Separador
+      //- Inicio Tema3.4
+      .row
+        #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 3.4 Revisión de fórmulas y consistencia de datos	
+
 
 </template>
 
