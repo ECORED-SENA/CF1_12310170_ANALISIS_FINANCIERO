@@ -301,12 +301,6 @@
               img.d-none.d-lg-flex(src="@/assets/curso/temas/bg/lineas.svg", style="width: 90px").mx-auto
             .col-lg
               p(data-aos="fade-left") Las hojas electrónicas y herramientas de visualización apoyan el análisis financiero, siempre que los datos sean confiables, las cuentas estén bien clasificadas y las fórmulas hayan sido revisadas.
-        
-
-
-
-
-
 </template>
 
 <script>

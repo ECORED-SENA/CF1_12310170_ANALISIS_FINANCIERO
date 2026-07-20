@@ -180,7 +180,7 @@
                 p El costo se relaciona directamente con el producto vendido o servicio prestado, mientras que el gasto corresponde a pagos necesarios para administrar, vender o financiar la operación.
       p.mb-5(data-aos="fade-left") Para facilitar esta diferencia, la siguiente tabla presenta situaciones frecuentes de la empresa, su clasificación como costo o gasto y la justificación correspondiente.
       //- Inicio Tabla
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="fade-left")
         .col-md-auto.col-lg-10
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 3.
@@ -254,7 +254,7 @@
       .row
         #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.3 Codificación y estructura de cuentas	
-      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img6.png')})` }")
         .bloque-texto-g__texto.p-4
@@ -263,10 +263,10 @@
       //- Inicio Accordion
       .bg--img_03.mt-3
         .row.justify-content-center
-          .col-lg-3 
+          .col-lg-4
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/t2/img7.png", style="width: 100%;").m-auto
-          .col-lg-9
+          .col-lg-8
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
               .row(titulo="Activo")
                   p.mb-4 Corresponde a los recursos y derechos de la empresa. Algunos ejemplos de cuentas son caja, bancos, cuentas por cobrar, inventarios, propiedad, planta y equipo. Se relaciona con el estado de situación financiera.
@@ -278,7 +278,7 @@
       //- Inicio Accordion
       .bg--img_03.mt-3
         .row.justify-content-center
-          .col-lg-9
+          .col-lg-8
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
               .row(titulo="Ingresos")
                   p.mb-4 Representan aumentos económicos derivados de la operación. Incluyen ventas, ingresos por servicios y devoluciones en compras. Se relacionan con el estado de resultados.
@@ -286,7 +286,7 @@
                   p.mb-4 Corresponden a los recursos consumidos para generar ingresos. Incluyen costo de ventas, materia prima y mano de obra directa. Se relacionan con el estado de resultados. 
               .row(titulo="Gastos")
                   p.mb-4 Representan desembolsos necesarios para operar. Incluyen gastos administrativos, de ventas y financieros. Se relacionan con el estado de resultados.
-          .col-lg-3 
+          .col-lg-4
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/t2/img8.png", style="width: 100%;").m-auto
       //- Fin Accordion
@@ -371,7 +371,7 @@
           //- Fin Tarjetas
       .row.p-4.justify-content-center
         .col-lg-5
-          .row.bg-color-4.p-4.align-items-center
+          .row.bg-color-4.p-4.align-items-center(data-aos="fade-right")
             .col-lg-2
               figure.mb-3.text-center
                 img(src='@/assets/curso/temas/bg/icono.svg' style="width: 70px").m-auto
@@ -380,7 +380,7 @@
       //- Linea de tiempo
       .row.justify-content-center
         .col-lg-10
-          PasosA.color-acento-contenido.mb-4(tipo="n")
+          PasosA.color-acento-contenido.mb-4(tipo="n")(data-aos="fade-left")
             .row.align-items-center
               .col-12.col-lg
                 h4 Pasivo corriente
@@ -451,21 +451,21 @@
       .row
         #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.5 Organización de la información contable	
-      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img10.png')})` }")
         .bloque-texto-g__texto.p-4
           p.mb-0 La organización de la información contable convierte soportes y registros diarios en datos útiles para elaborar estados financieros. Para ello, las operaciones deben clasificarse, verificarse y agruparse correctamente, evitando errores, saldos incompletos o cifras mal registradas que afecten el análisis y la toma de decisiones.
       //- Título nivel 3 - Imagen
-      .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
+      .titulo-tercer-nivel.mb-5.mt-3
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/imagen-titulos.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Proceso para organizar la información contable
       //- Título nivel 3 - Imagen
-      p El proceso consiste en identificar, soportar, clasificar, registrar y validar las operaciones antes de elaborar estados financieros, evitando errores en la información contable. Seguidamente, se presenta el proceso de organización de la información contable:
+      p(data-aos="fade-left") El proceso consiste en identificar, soportar, clasificar, registrar y validar las operaciones antes de elaborar estados financieros, evitando errores en la información contable. Seguidamente, se presenta el proceso de organización de la información contable:
       //- Linea de tiempo
-      .row.justify-content-center
+      .row.justify-content-center(data-aos="fade-left")
         .col-lg-10
-          PasosA.color-acento-contenido.mb-4(tipo="n")
+          PasosA.color-acento-contenido.mb-4(tipo="n")(data-aos="fade-right")
             .row.align-items-center
               .col-12.col-lg
                 h4 Identificación del hecho económico
@@ -617,7 +617,7 @@
                         td Participación de los propietarios en la empresa
             //- FinTabla
       p.mb-5(data-aos="fade-left") En la siguiente figura se presenta cómo se organizan los activos, pasivos y patrimonio dentro del estado de situación financiera, verificando que el total de activos sea igual a la suma del pasivo y el patrimonio.            
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-md-auto.col-lg-10
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 1.
@@ -631,7 +631,7 @@
         #t_2_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.7 Estado de resultados
       p.mb-5(data-aos="fade-left") El estado de resultados presenta el desempeño económico de la empresa durante un periodo, al comparar ingresos, costos y gastos. Su análisis permite identificar utilidad o pérdida, evaluar la generación de ganancias, controlar gastos y apoyar decisiones sobre precios, costos y eficiencia operativa. La estructura del estado de resultados se presenta a continuación:          
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="fade-left")
         .col-md-auto.col-lg-10
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 7.
@@ -674,9 +674,9 @@
                   td $ 15.000.000
       p(data-aos="fade-left") El ejemplo refleja que la empresa vendió $120.000.000 y obtuvo una utilidad neta de $15.000.000. Esto significa que, después de cubrir costos, gastos, intereses e impuestos, conserva una ganancia equivalente al resultado final del periodo. La secuencia del estado de resultados es la siguiente:
       //- Linea de tiempo
-      .row.justify-content-center(data-aos="fade-left")
+      .row.justify-content-center
         .col-lg-8
-          PasosA.color-acento-contenido.mb-4(tipo="n")
+          PasosA.color-acento-contenido.mb-4(tipo="n")(data-aos="fade-left")
             .row.align-items-center
               .col-12.col-lg
                 h4 Ingresos operacionales
@@ -743,10 +743,10 @@
       //- Inicio Accordion
       .bg--img_03.mt-3
         .row.justify-content-center
-          .col-lg-3 
+          .col-lg-4
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/t2/img13.png", style="width: 100%;").m-auto
-          .col-lg-9
+          .col-lg-8
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
               .row(titulo="Aporte de socios")
                   p.mb-4 Aumenta el patrimonio, ya que representa nuevos recursos entregados por los propietarios a la empresa. Por ejemplo, un nuevo aporte de capital por $ 20.000.000.
@@ -758,7 +758,7 @@
       //- Inicio Accordion
       .bg--img_03.mt-3
         .row.justify-content-center          
-          .col-lg-9
+          .col-lg-8
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
               .row(titulo="Constitución de reservas")
                   p.mb-4 Reclasifica valores dentro del patrimonio, ya que traslada parte de las utilidades a una reserva. Por ejemplo, el traslado de utilidad a reserva legal.
@@ -766,7 +766,7 @@
                   p.mb-4 Disminuye el patrimonio, porque implica la entrega de dividendos o participaciones a los socios.
               .row(titulo="Ajustes de periodos anteriores")
                   p.mb-4 Pueden aumentar o disminuir el patrimonio, según el efecto de la corrección autorizada de errores contables.
-          .col-lg-3 
+          .col-lg-4
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/t2/img14.png", style="width: 100%;").m-auto
       //- Fin Accordion
@@ -935,7 +935,7 @@
               //- Fin Carrusel
       p.mb-5(data-aos="fade-left") En la siguiente tabla se presentan ejemplos de notas que ayudan a interpretar mejor los estados financieros.
       //- Inicio Tabla
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="fade-left")
         .col-md-auto.col-lg-10
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 8.
@@ -991,7 +991,7 @@
       .row
         #t_2_11.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.11 Errores frecuentes en la presentación de estados financieros                                        
-      .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img20.png')})` }")
         .bloque-texto-g__texto.p-4
@@ -1042,7 +1042,7 @@
                 h4 Mezclar gastos personales y empresariales
                 p Ocurre cuando se registran compras personales como gastos del negocio. Este error reduce indebidamente la utilidad del periodo, por lo que se recomienda separar las operaciones personales de las empresariales.
       //- Fin Slideshow
-      p La elaboración de estados financieros básicos requiere organizar, clasificar y validar la información contable para reflejar la realidad económica de la empresa. Cuando esta información es completa, verificable y confiable, permite presentar informes financieros útiles para el análisis y la toma de decisiones.
+      p(data-aos="fade-left") La elaboración de estados financieros básicos requiere organizar, clasificar y validar la información contable para reflejar la realidad económica de la empresa. Cuando esta información es completa, verificable y confiable, permite presentar informes financieros útiles para el análisis y la toma de decisiones.
 </template>
 
 <script>

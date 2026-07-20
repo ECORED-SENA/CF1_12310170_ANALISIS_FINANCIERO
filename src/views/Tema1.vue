@@ -550,10 +550,10 @@
       //- Inicio Accordion
       .bg--img_03.mt-5
         .row.justify-content-center
-          .col-lg-3 
+          .col-lg-4
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/t1/img9.png", style="width: 100%;").m-auto
-          .col-lg-9
+          .col-lg-8
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
               .row(titulo="Usuarios de la información")
                   p.mb-4 Para este aspecto, la aplicación de los fundamentos financieros se presenta a partir de:
@@ -595,7 +595,7 @@
       //- Inicio Accordion
       .bg--img_03.mt-3
         .row.justify-content-center
-          .col-lg-9
+          .col-lg-8
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
               .row(titulo="Fuentes de información")
                   p.mb-4 El análisis para el aspecto fuentes de información está dado por:
@@ -633,7 +633,7 @@
                     li.d-flex
                       .fas.fa-circle-right.me-3
                       span Decisión que apoya: programar pagos y anticipar necesidades de efectivo.
-          .col-lg-3 
+          .col-lg-4
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/t1/img10.png", style="width: 100%;").m-auto                     
       //- Fin Accordion
