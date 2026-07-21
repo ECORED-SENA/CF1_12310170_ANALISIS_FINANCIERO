@@ -290,80 +290,121 @@ export default {
   },
   glosario: [
     {
-      termino: 'Alimentación bovina',
+      termino: 'Activo',
       significado:
-        'Conjunto de prácticas destinadas a suministrar nutrientes y agua a los bovinos según sus necesidades.',
+        'Recursos y derechos controlados por la empresa que generan beneficios económicos.',
     },
     {
-      termino: 'Forraje',
+      termino: 'Análisis financiero',
       significado:
-        'Material vegetal utilizado como base de la dieta de los bovinos.',
+        'Estudio de la información financiera para interpretar la situación de la empresa.',
     },
     {
-      termino: 'Ensilaje',
+      termino: 'Análisis horizontal',
       significado:
-        'Método de conservación de forrajes mediante fermentación anaerobia.',
+        'Comparación de cuentas entre periodos para identificar aumentos o disminuciones.',
     },
     {
-      termino: 'Banco de proteína',
+      termino: 'Análisis vertical',
       significado:
-        'Área cultivada con especies forrajeras de alto contenido proteico para complementar la alimentación.',
+        'Cálculo de la participación de cada cuenta dentro de un total.',
     },
     {
-      termino: 'Bioseguridad',
-      significado:
-        'Medidas preventivas orientadas a reducir el riesgo de ingreso y propagación de enfermedades.',
+      termino: 'Capital de trabajo',
+      significado: 'Diferencia entre activo corriente y pasivo corriente.',
     },
     {
-      termino: 'Bienestar animal',
+      termino: 'Diagnóstico financiero',
       significado:
-        'Condiciones que garantizan la salud física y mental de los animales, evitando sufrimiento y estrés.',
+        'Conclusión sobre la situación financiera a partir del análisis realizado.',
     },
     {
-      termino: 'Inocuidad',
+      termino: 'Estado de resultados',
       significado:
-        'Condición que asegura que los alimentos y el agua no representen riesgos para la salud.',
+        'Informe que presenta ingresos, costos, gastos y utilidad o pérdida.',
     },
     {
-      termino: 'Ración',
+      termino: 'Estado de situación financiera',
       significado:
-        'Cantidad de alimento suministrada a un animal durante un periodo determinado.',
+        'Informe que presenta activos, pasivos y patrimonio en una fecha determinada.',
     },
     {
-      termino: 'Trazabilidad',
+      termino: 'Indicador financiero',
       significado:
-        'Capacidad de registrar y hacer seguimiento a las actividades e insumos utilizados en el sistema productivo.',
+        'Relación entre cifras financieras para evaluar liquidez, actividad, endeudamiento o rentabilidad.',
     },
     {
-      termino: 'Sistemas silvopastoriles',
+      termino: 'Liquidez',
       significado:
-        'Sistemas de producción que integran árboles, pasturas y animales para mejorar la sostenibilidad y el bienestar animal.',
+        'Capacidad de la empresa para cumplir obligaciones de corto plazo.',
+    },
+    {
+      termino: 'Pasivo',
+      significado: 'Obligaciones presentes de la empresa con terceros.',
+    },
+    {
+      termino: 'Patrimonio',
+      significado:
+        'Participación de los propietarios después de descontar los pasivos.',
+    },
+    {
+      termino: 'Rentabilidad',
+      significado:
+        'Capacidad de la empresa para generar utilidad con sus recursos.',
+    },
+    {
+      termino: 'Rotación',
+      significado:
+        'Medida que indica qué tan rápido se convierte un recurso en operación.',
+    },
+    {
+      termino: 'Toma de decisiones',
+      significado:
+        'Elección de acciones basada en información financiera analizada.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Food and Agriculture Organization of the United Nations. (2021). Buenas prácticas ganaderas para la producción bovina de carne y leche. FAO.',
+        'Congreso de Colombia. (13 de Julio de 2009). Ley 1314. Función Pública.',
+      link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=36833',
+    },
+    {
+      referencia:
+        'Coral Delgado, L. d. (2014). Contabilidad universitaria (7.ª ed.). McGraw-Hill.',
       link: '',
     },
     {
       referencia:
-        'Instituto Colombiano Agropecuario. (2020). Resolución 067449 de 2020. Requisitos para obtener la certificación en Buenas Prácticas Ganaderas (BPG) en la producción primaria de bovinos y bufalinos. ICA.',
+        'Díaz Moreno, H. (2006). Contabilidad general: enfoque práctico con aplicaciones informáticas (2.ª ed.). Pearson Educación.',
       link: '',
     },
     {
       referencia:
-        'Instituto Colombiano Agropecuario. (2020). Resolución 068167 de 2020. Requisitos sanitarios y de inocuidad para explotaciones bovinas y bufalinas. ICA.',
+        'IFRS Foundation. (2018). Conceptual Framework for Financial Reporting.',
+      link: 'https://www.ifrs.org/',
+    },
+    {
+      referencia:
+        'García Serna, O. L. (2009). Administración financiera: fundamentos y aplicaciones (4.ª ed.). Prensa Moderna Impresores.',
       link: '',
     },
     {
       referencia:
-        'Instituto Colombiano Agropecuario. (2023). Manual de Buenas Prácticas Ganaderas para bovinos. ICA.',
-      link: '',
+        'Microsoft Learn. (junio de 2026). Documentación de creación de informes y paneles de Power BI.',
+      link: 'https://learn.microsoft.com/es-es/power-bi/create-reports/?utm_source',
+    },
+    {
+      referencia: 'Microsoft Support. (s.f.). Calcular porcentajes.',
+      link: 'https://support.microsoft.com/es-es/office/calcular-porcentajes-6b5506e9-125a-4aba-a638-d6b40e603981?utm',
+    },
+    {
+      referencia: 'Mincit. (s.f.). Normatividad vigente.',
+      link: 'https://www.mincit.gov.co/temas-interes/convergencias-niifs-y-nias/normatividad-vigente',
     },
     {
       referencia:
-        'National Research Council. (2016). Nutrient requirements of beef cattle (8th rev. ed.). The National Academies Press.',
+        'Ortiz Anaya, H. (2011). Análisis financiero aplicado y principios de administración financiera (14.ª ed.). Universidad Externado de Colombia.',
       link: '',
     },
   ],

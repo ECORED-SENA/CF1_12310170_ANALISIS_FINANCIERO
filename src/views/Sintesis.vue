@@ -2,11 +2,17 @@
   .curso-main-container.pb-3
     BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum.
+      .row.mb-5
+        .col-12.ps-3(style="border-left: 10px solid #39A900;") 
+          h3.mb-1 Análisis financiero
+          p.mb-0 
+            | Síntesis:           
+            | elaboración e interpretación de estados financieros.
+      p.mt-5 A continuación, se presenta una síntesis de la temática estudiada por el componente formativo.
       .row.justify-content-center
         .col-lg-10.mb-5.bgs.p-4.brad
           figure
-            img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+            img(src="@/assets/curso/sintesis.svg", alt="El diagrama presenta la estructura temática del componente Elaboración e interpretación de estados financieros, organizada en cinco ejes principales. Inicia con los fundamentos financieros y normativos, continúa con la estructura contable y la elaboración de estados financieros básicos, incorpora el procesamiento digital de la información financiera, desarrolla los métodos de análisis vertical y horizontal, y finaliza con indicadores financieros, diagnóstico e informe. En conjunto, muestra una ruta progresiva que va desde la comprensión de los conceptos contables hasta la interpretación de resultados para apoyar la toma de decisiones empresariales.")
         .col-auto
           a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
             .anexo__icono
