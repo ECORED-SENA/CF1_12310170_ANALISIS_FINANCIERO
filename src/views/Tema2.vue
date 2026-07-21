@@ -572,7 +572,7 @@
       .row
         #t_2_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.6 Estado de situación financiera o balance general	
-      p(data-aos="fade-left") El estado de situación financiera presenta los activos, pasivos y patrimonio de la empresa en una fecha determinada, permitiendo conocer su financiación y capacidad de pago. Se elabora a partir de la ecuación contable, por lo que las cuentas deben estar correctamente clasificadas. (Coral Delgado, 2014). La siguiente tabla presenta la forma básica de organizar las cuentas del estado de situación financiera
+      p(data-aos="fade-left") El estado de situación financiera presenta los activos, pasivos y patrimonio de la empresa en una fecha determinada, permitiendo conocer su financiación y capacidad de pago. Se elabora a partir de la ecuación contable, por lo que las cuentas deben estar correctamente clasificadas. (Coral Delgado, 2014). La siguiente tabla presenta la forma básica de organizar las cuentas del estado de situación: financiera
       .row.bg-fondo-2.mt-5(data-aos="fade-right")
         .col-12
           .pt-3.pb-5.px-5

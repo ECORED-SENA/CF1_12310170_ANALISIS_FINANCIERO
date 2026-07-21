@@ -186,8 +186,7 @@
       .row
         #t_4_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 4.5 Limitaciones del análisis financiero	
-      p(data-aos="fade-left") El análisis financiero se basa en cifras históricas y depende de la calidad de la información contable. Por ello, sus conclusiones deben formularse con prudencia, considerando factores como inflación, estacionalidad, mercado, sector y eventos extraordinarios. (Coral Delgado, 2014; García Serna, 2009).Para realizar el análisis financiero existen algunas limitaciones para realizar interpretación correcta; estas se detallan a continuación:
-      p(data-aos="fade-left") El estado de cambios en el patrimonio presenta las variaciones de las cuentas patrimoniales durante un periodo. Permite explicar aumentos o disminuciones por aportes, utilidades, pérdidas, reservas, distribución de utilidades o retiros autorizados. Los movimientos frecuentes que aumentan y disminuyen el patrimonio son:
+      p(data-aos="fade-left") El análisis financiero se basa en cifras históricas y depende de la calidad de la información contable. Por ello, sus conclusiones deben formularse con prudencia, considerando factores como inflación, estacionalidad, mercado, sector y eventos extraordinarios. (Coral Delgado, 2014; García Serna, 2009). Para realizar el análisis financiero existen algunas limitaciones para realizar interpretación correcta; estas se detallan a continuación:
       //- Inicio Accordion
       .bg--img_03.mt-3(data-aos="fade-left")
         .row.justify-content-center

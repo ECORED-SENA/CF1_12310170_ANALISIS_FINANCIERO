@@ -295,7 +295,7 @@
         .col-lg-7
           .row.align-items-start.mb-3(data-aos="fade-left")
             .col-lg
-              p.mb-0.bg-color-4.p-4 Aunque las ventas aumentaron 22,2%, el costo de ventas creció 29,6%. Esto indica que el crecimiento de los ingresos no se reflejó en una mayor utilidad neta, porque los costos aumentaron en mayor proporción. Esta lectura inicial servirá como base para el análisis financiero del siguiente capítulo.
+              p.mb-0.bg-color-4.p-4 Aunque las ventas aumentaron 22,2 %, el costo de ventas creció 29,6 %. Esto indica que el crecimiento de los ingresos no se reflejó en una mayor utilidad neta, porque los costos aumentaron en mayor proporción. Esta lectura inicial servirá como base para el análisis financiero del siguiente capítulo.
           .row.align-items-start.mb-10(data-aos="fade-left")  
             .col-lg-auto
               img.d-none.d-lg-flex(src="@/assets/curso/temas/bg/lineas.svg", style="width: 90px").mx-auto
