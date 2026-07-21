@@ -225,6 +225,26 @@ export default {
             titulo: 'Indicadores de actividad o rotación',
             hash: 't_5_3',
           },
+          {
+            numero: '5.4',
+            titulo: 'Indicadores de endeudamiento',
+            hash: 't_5_4',
+          },
+          {
+            numero: '5.5',
+            titulo: 'Indicadores de rentabilidad',
+            hash: 't_5_5',
+          },
+          {
+            numero: '5.6',
+            titulo: 'Diagnóstico financiero para la toma de decisiones',
+            hash: 't_5_6',
+          },
+          {
+            numero: '5.7',
+            titulo: 'Informe financiero con conclusiones y recomendaciones',
+            hash: 't_5_7',
+          },
         ],
       },
     ],
@@ -385,7 +405,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Fredy Fabian Ortiz Segura',
+          nombre: 'Jorge David Barbosa Losada',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

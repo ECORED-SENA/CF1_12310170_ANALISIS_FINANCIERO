@@ -212,12 +212,270 @@
                 p.bg-color-11.p-3.d-inline-block Fórmula: Total pasivo / Patrimonio
       //- Fin Slideshow
       p(data-aos="fade-left") <b>Nota.</b> Tabla con fines didácticos para interpretar el peso de las obligaciones dentro de la estructura financiera de la empresa.
+      .row.mb-5.justify-content-center.align-items-center
+        .col-12.col-sm-9.col-lg-5.order-2.mb-4.mb-lg-0(data-aos="fade-left")
+          figure.mb-0.text-center
+            img(src='@/assets/curso/temas/t5/img6.png' style="width: 600px").m-auto
+        .col-12.col-lg-7.order-1(data-aos="fade-right")
+          .bg-color-10.p-4
+            p.fw-bold Ejemplo Indicadores de endeudamiento:
+            p Una empresa tiene total pasivo por $ 90.000.000, total activo por $ 180.000.000 y patrimonio por $ 90.000.000.<br><br>
+            p <b>Nivel de endeudamiento =</b> $ 90.000.000 /  $180.000.000 × 100 = 50 %
+            p <b>Relación deuda-patrimonio =</b> $ 90.000.000 / $ 90.000.000 = 1,0<br><br>
+            p.mt-3 El resultado indica que el 50 % de los activos está financiado con deuda y que por cada peso aportado o acumulado en patrimonio existe un peso financiado por terceros. La empresa debe revisar si sus ingresos y su efectivo son suficientes para cumplir oportunamente estas obligaciones.
       Separador
       //- Inicio Tema5.5
       .row
         #t_5_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 5.5 Indicadores de endeudamiento
-
+          h2 5.5 Indicadores de rentabilidad
+      p(data-aos="fade-left") Los indicadores de rentabilidad evalúan la capacidad de la empresa para generar utilidades a partir de ventas, activos y patrimonio. Su análisis permite revisar costos, gastos, eficiencia operativa y rendimiento para la empresa y sus propietarios. (Ortiz Anaya, 2011). Estos son los indicadores de rentabilidad:
+      //- Pestanas horizontales
+      .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
+          TabsC.color-acento-contenido.mt-1
+            .py-3.py-md-4(titulo="Margen bruto")
+              .row.align-items-center
+                .col-md-6
+                  figure
+                    img(src='@/assets/curso/temas/t5/tarjeta04_1.png')
+                .col-md-6.mb-4.mb-md-0
+                  h4 Margen bruto
+                  p Se calcula dividiendo la utilidad bruta entre las ventas y multiplicando por 100. Mide qué porcentaje de las ventas queda después de cubrir el costo de ventas.
+                  p.mb-0.bg-color-4.p-3.d-inline-block <b>Fórmula:</b> Utilidad bruta / Ventas × 100
+            .py-3.py-md-4(titulo="Margen operacional:")
+              .row.align-items-center
+                .col-md-6.mb-4.mb-md-0
+                  figure
+                    img(src='@/assets/curso/temas/t5/tarjeta04_2.png')
+                .col-md-6
+                  h4 Margen operacional:
+                  p Se calcula dividiendo la utilidad operacional entre las ventas y multiplicando por 100. Evalúa el resultado generado por la actividad principal del negocio.
+                  p.mb-0.bg-color-4.p-3.d-inline-block <b>Fórmula:</b> Utilidad operacional / Ventas × 100
+            .py-3.py-md-4(titulo="Margen neto")
+              .row.align-items-center
+                .col-md-6.mb-4.mb-md-0
+                  figure
+                    img(src='@/assets/curso/temas/t5/tarjeta04_3.png')
+                .col-md-6
+                  h4 Margen neto
+                  p Se calcula dividiendo la utilidad neta entre las ventas y multiplicando por 100. Indica qué porcentaje de las ventas queda como utilidad final.
+                  p.mb-0.bg-color-4.p-3.d-inline-block <b>Fórmula:</b>: Utilidad neta / Ventas × 100
+            .py-3.py-md-4(titulo="Rentabilidad del activo, ROA")
+              .row.align-items-center
+                .col-md-6.mb-4.mb-md-0
+                  figure
+                    img(src='@/assets/curso/temas/t5/tarjeta04_3.png')
+                .col-md-6
+                  h4 Rentabilidad del activo, ROA
+                  p Se calcula dividiendo la utilidad neta entre el total activo y multiplicando por 100. Mide la capacidad de los activos para generar utilidad.
+                  p.mb-0.bg-color-4.p-3.d-inline-block <b>Fórmula:</b>: Utilidad neta / Total activo × 100
+            .py-3.py-md-4(titulo="Rentabilidad del patrimonio, ROE")
+              .row.align-items-center
+                .col-md-6.mb-4.mb-md-0
+                  figure
+                    img(src='@/assets/curso/temas/t5/tarjeta04_3.png')
+                .col-md-6
+                  h4 Rentabilidad del patrimonio, ROE
+                  p Se calcula dividiendo la utilidad neta entre el patrimonio y multiplicando por 100. Evalúa el rendimiento obtenido sobre los recursos de los propietarios.
+                  p.mb-0.bg-color-4.p-3.d-inline-block <b>Fórmula:</b>: Utilidad neta / Patrimonio × 100
+      .row.mb-5.justify-content-center.align-items-center
+        .col-12.col-sm-9.col-lg-5.order-2.mb-4.mb-lg-0(data-aos="fade-left")
+          figure.mb-0.text-center
+            img(src='@/assets/curso/temas/t5/img7.png' style="width: 600px").m-auto
+        .col-12.col-lg-7.order-1(data-aos="fade-right")
+          .bg-color-10.p-2
+            p.fw-bold Ejemplo Indicadores de rentabilidad
+            p Una empresa presenta ventas por $ 120.000.000, utilidad neta por $ 18.000.000, total activo por $ 150.000.000 y patrimonio por $ 80.000.000.<br><br>
+            p <b>Margen neto =</b> $ 18.000.000 / $ 120.000.000 × 100 = 15 %
+            p <b>ROA =</b> $ 18.000.000 / $ 150.000.000 × 100 = 12 %
+            p <b>ROE =</b> $ 18.000.000 / $ 80.000.000 × 100 = 22,5 % <br><br>
+            p.mt-3 El resultado indica que el 50 % de los activos está financiado con deuda y que por cada peso aportado o acumulado en patrimonio existe un peso financiado por terceros. La empresa debe revisar si sus ingresos y su efectivo son suficientes para cumplir oportunamente estas obligaciones.                                    
+      //- Cierres Pestanas horizontales
+      Separador
+      //- Inicio Tema5.6
+      .row
+        #t_5_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 5.6 Diagnóstico financiero para la toma de decisiones
+      p El diagnóstico financiero integra el análisis vertical, horizontal y los indicadores para interpretar la situación general de la empresa. Permite explicar los resultados, identificar fortalezas, debilidades, riesgos y acciones de mejora relacionadas con liquidez, rentabilidad, costos, gastos y operación del negocio. Para lo anterior, se presenta la guía para convertir los indicadores en diagnóstico financiero.
+      //- Inicio Accordion
+      .bg--img_03.mt-3(data-aos="fade-left")
+        .row.justify-content-center
+          .col-lg-4
+            figure(data-aos="zoom-in")
+              img(src="@/assets/curso/temas/t5/img8.png", style="width: 100%;").m-auto
+          .col-lg-8
+            AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+              .row(titulo="Razón corriente baja")
+                  p.mb-4 Puede indicar que la empresa tiene dificultad para cubrir sus obligaciones de corto plazo. Ante esta situación, se recomienda revisar pagos, recaudos, flujo de caja y posibilidades de negociación con proveedores.
+              .row(titulo="Prueba ácida muy inferior a la razón corriente")
+                  p.mb-4 Significa que la liquidez depende en gran parte de los inventarios. Por ello, se recomienda revisar la rotación de mercancía y los niveles de compra.
+              .row(titulo="Días de cartera superiores a la política de crédito")
+                  p.mb-4 Indica que los clientes están tardando más de lo previsto en pagar. En este caso, se recomienda fortalecer el cobro y revisar cupos y condiciones de crédito.
+              .row(titulo="Inventarios con baja rotación")
+                  p.mb-4 Muestra que hay recursos inmovilizados en mercancía. Por esta razón, se recomienda ajustar compras, realizar promociones o depurar productos de baja salida.
+      //- Fin Accordion
+      //- Inicio Accordion
+      .bg--img_03.mt-3(data-aos="fade-left")
+        .row.justify-content-center          
+          .col-lg-8
+            AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+              .row(titulo="Endeudamiento creciente")
+                  p.mb-4 Indica que la empresa depende más de recursos de terceros. Ante esta situación, se recomienda evaluar la capacidad de pago y las condiciones de financiación.
+              .row(titulo="Margen neto en disminución")
+                  p.mb-4 Señala que los costos o gastos están afectando la utilidad final. Por ello, se recomienda revisar precios, costos, descuentos y gastos operacionales.
+              .row(titulo="ROA bajo")
+                  p.mb-4 Indica que los activos no están generando suficiente utilidad. En este caso, se recomienda evaluar la productividad de los activos y el uso de los recursos.
+              .row(titulo="ROE bajo")
+                  p.mb-4 Muestra que el patrimonio no está generando el rendimiento esperado. Por esta razón, se recomienda revisar la rentabilidad, la inversión y la estrategia operativa.
+          .col-lg-4
+            figure(data-aos="zoom-in")
+              img(src="@/assets/curso/temas/t5/img9.png", style="width: 100%;").m-auto
+      //- Fin Accordion
+      .row.p-4.justify-content-center(data-aos="fade-left")
+        .col-lg-7
+          .row.bg-color-4.p-4.align-items-center
+            .col-lg-2
+              figure.mb-3.text-center
+                img(src='@/assets/curso/temas/bg/icono.svg' style="width: 70px").m-auto
+            .col-lg-10
+              p La ruta de interpretación de indicadores financieros es la siguiente:
+      //- Linea de tiempo
+      .row.justify-content-center(data-aos="fade-left")
+        .col-lg-10
+          PasosA.color-acento-contenido.mb-4(tipo="n")
+            .row.align-items-center
+              .col-12.col-lg
+                h4 Cálculo del indicador
+                p Se determina el valor del indicador según la información financiera disponible. Puede corresponder a indicadores de liquidez, actividad, endeudamiento o rentabilidad.
+              .col-12.col-lg-auto.mt-3.mt-lg-0
+                figure
+                  img(src='@/assets/curso/temas/t5/tarjeta05_1.png').img125
+            .row.align-items-center
+              .col-12.col-lg-auto.mb-3.mb-lg-0
+                figure
+                  img(src='@/assets/curso/temas/t5/tarjeta05_2.png').img125
+              .col-12.col-lg.text-start
+                h4 Comparación con parámetros
+                p Se contrasta el resultado con referencias relevantes, como periodos anteriores, metas internas, presupuesto o datos del sector.
+            .row.align-items-center
+              .col-12.col-lg
+                h4 Identificación de alertas y fortalezas
+                p Se detectan situaciones críticas o positivas en la empresa, como liquidez baja, cartera alta o rentabilidad favorable.
+              .col-12.col-lg-auto.mt-3.mt-lg-0
+                figure
+                  img(src='@/assets/curso/temas/t5/tarjeta05_3.png').img125
+            .row.align-items-center
+              .col-12.col-lg-auto.mb-3.mb-lg-0
+                figure
+                  img(src='@/assets/curso/temas/t5/tarjeta05_4.png').img125
+              .col-12.col-lg.text-start
+                h4 Diagnóstico financiero
+                p Se interpreta el conjunto de resultados para comprender la situación financiera de la empresa de manera integral.
+            .row.align-items-center
+              .col-12.col-lg
+                h5 Conclusiones
+                p Se sintetizan los hallazgos principales, identificando los aspectos más relevantes del análisis financiero.
+              .col-12.col-lg-auto.mt-3.mt-lg-0
+                figure
+                  img(src='@/assets/curso/temas/t5/tarjeta05_5.png').img125
+            .row.align-items-center
+              .col-12.col-lg-auto.mb-3.mb-lg-0
+                figure
+                  img(src='@/assets/curso/temas/t5/tarjeta05_6.png').img125
+              .col-12.col-lg.text-start
+                h4 Recomendaciones y toma de decisiones
+                p Se proponen acciones correctivas, preventivas y de mejora para fortalecer el desempeño financiero y apoyar la toma de decisiones.
+      //- Linea de tiempo      
+      Separador
+      //- Inicio Tema5.7
+      .row
+        #t_5_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 5.7 Informe financiero con conclusiones y recomendaciones
+      P El informe financiero comunica de forma clara, técnica y ordenada los resultados del análisis, el diagnóstico y las recomendaciones para la toma de decisiones. Cada resultado debe incluir interpretación y, cuando sea necesario, acciones de mejora. (Ortiz Anaya, 2011; García Serna, 2009). Para la realización del informe, se debe tener en cuenta la siguiente estructura:
+      //- Linea de tiempo
+      .row.justify-content-center(data-aos="fade-left")
+        .col-lg-10
+          PasosA.color-acento-contenido.mb-4(tipo="n")
+            .row.align-items-center
+              .col-12.col-lg
+                h4 Identificación de la empresa
+                p Incluye el nombre, la actividad económica y el periodo analizado. Su propósito es contextualizar el análisis financiero.
+              .col-12.col-lg-auto.mt-3.mt-lg-0
+                figure
+                  img(src='@/assets/curso/temas/t5/tarjeta06_1.png').img125
+            .row.align-items-center
+              .col-12.col-lg-auto.mb-3.mb-lg-0
+                figure
+                  img(src='@/assets/curso/temas/t5/tarjeta06_2.png').img125
+              .col-12.col-lg.text-start
+                h4 Información utilizada
+                p Comprende los estados financieros, los periodos y las fuentes de datos empleadas. Su propósito es indicar la base sobre la cual se realiza el análisis.
+            .row.align-items-center
+              .col-12.col-lg
+                h4 Análisis vertical y horizontal
+                p Presenta las participaciones, variaciones y cambios relevantes identificados en los estados financieros. Su propósito es mostrar la estructura y evolución financiera de la empresa.
+              .col-12.col-lg-auto.mt-3.mt-lg-0
+                figure
+                  img(src='@/assets/curso/temas/t5/tarjeta06_3.png').img125
+            .row.align-items-center
+              .col-12.col-lg-auto.mb-3.mb-lg-0
+                figure
+                  img(src='@/assets/curso/temas/t5/tarjeta06_4.png').img125
+              .col-12.col-lg.text-start
+                h4 Indicadores financieros
+                p Incluye indicadores de liquidez, actividad, endeudamiento y rentabilidad. Su propósito es evaluar aspectos específicos de la situación financiera.
+            .row.align-items-center
+              .col-12.col-lg
+                h5 Diagnóstico financiero
+                p Integra fortalezas, debilidades y riesgos identificados durante el análisis. Su propósito es explicar la situación financiera de la empresa.
+              .col-12.col-lg-auto.mt-3.mt-lg-0
+                figure
+                  img(src='@/assets/curso/temas/t5/tarjeta06_5.png').img125
+            .row.align-items-center
+              .col-12.col-lg-auto.mb-3.mb-lg-0
+                figure
+                  img(src='@/assets/curso/temas/t5/tarjeta06_6.png').img125
+              .col-12.col-lg.text-start
+                h4 Conclusiones
+                p Reúne los hallazgos principales del análisis financiero. Su propósito es resumir los resultados más importantes.
+            .row.align-items-center
+              .col-12.col-lg-auto.mb-3.mb-lg-0
+                figure
+                  img(src='@/assets/curso/temas/t5/tarjeta06_7.png').img125
+              .col-12.col-lg.text-start
+                h4 Recomendaciones
+                p Presenta acciones de mejora, corrección o prevención. Su propósito es apoyar la toma de decisiones operativas.
+      //- Linea de tiempo
+      //- Título nivel 3 - Imagen
+      .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/imagen-titulos.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Criterios para redactar conclusiones y recomendaciones
+      p(data-aos="fade-left") Las conclusiones y recomendaciones deben surgir de los resultados del análisis financiero, relacionando cifras, variaciones e indicadores con la situación real de la empresa. Los criterios para tener en cuenta son:
+      //- Inicio Tarjetas
+      .row.justify-content-center.mt-5.mb-5(data-aos="fade-left")
+        .col-12.col-sm-9.col-md-6.col-lg-4.mb-4.d-flex.flex-column
+          .tarjeta.rounded-3.h-100.border.overflow-hidden.shadow.bg-color-9
+            figure.mb-0
+              img(src='@/assets/curso/temas/t5/tarjeta07_1.png', alt='').w-100
+            .p-4.d-flex.flex-column.justify-content-between.h-100
+              div
+                h4.card-title.text-center.mb-4 Conclusiones
+                p Deben estar sustentadas en cifras, comparaciones o tendencias, evitando opiniones generales.
+        .col-12.col-sm-9.col-md-6.col-lg-4.mb-4.d-flex.flex-column
+          .tarjeta.rounded-3.h-100.border.overflow-hidden.shadow.bg-color-9
+            figure.mb-0
+              img(src='@/assets/curso/temas/t5/tarjeta07_2.png', alt='').w-100
+            .p-4.d-flex.flex-column.justify-content-between.h-100
+              div
+                h4.card-title.text-center.mb-4 Recomendaciones
+                p Deben ser concretas y aplicables, orientadas a mejorar liquidez, cartera, inventarios, costos, gastos, financiación o rentabilidad.
+        .col-12.col-sm-9.col-md-6.col-lg-4.mb-4.d-flex.flex-column
+          .tarjeta.rounded-3.h-100.border.overflow-hidden.shadow.bg-color-9
+            figure.mb-0
+              img(src='@/assets/curso/temas/t5/tarjeta07_3.png', alt='').w-100
+            .p-4.d-flex.flex-column.justify-content-between.h-100
+              div
+                h4.card-title.text-center.mb-4 Diagnóstico financiero
+                p Integra indicadores, análisis vertical y horizontal para identificar riesgos, fortalezas y acciones de mejora que apoyen la toma de decisiones.
 </template>
 
 <script>
