@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Manejo integral de la alimentación bovina bajo Buenas Prácticas Ganaderas (BPG) y sostenibilidad productiva',
+    Name: 'Elaboración e interpretación de estados financieros',
     Description:
-      'Este componente formativo permitió comprender la importancia de una adecuada alimentación bovina mediante el manejo eficiente de alimentos y agua, la aplicación de Buenas Prácticas Ganaderas, medidas de bioseguridad y estrategias de bienestar animal. Asimismo, destacó la relevancia de los registros, los planes de contingencia y la mejora continua para fortalecer la productividad, sostenibilidad y competitividad de los sistemas bovinos.',
+      'Orienta la elaboración e interpretación de estados financieros básicos a partir de información contable organizada, confiable y verificable. Se aplica en el análisis de la situación financiera de una empresa, permitiendo identificar la composición de sus activos, pasivos, patrimonio, ingresos, costos y gastos. Además, facilita el uso de análisis vertical, análisis horizontal e indicadores financieros para emitir diagnósticos, reconocer riesgos y proponer decisiones operativas de mejora.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [

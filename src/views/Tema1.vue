@@ -254,10 +254,10 @@
       //- Inicio Accordion
       .bg--img_03.mt-5
         .row.justify-content-center
-          .col-lg-3 
+          .col-lg-4
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/t1/img7.png", style="width: 100%;").m-auto
-          .col-lg-9
+          .col-lg-8
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
               .row(titulo="Bancos y entidades financieras")
                   p.mb-4 Evalúa capacidad financiera, aprueban, niegan o modifican condiciones de crédito y analiza riesgos.               

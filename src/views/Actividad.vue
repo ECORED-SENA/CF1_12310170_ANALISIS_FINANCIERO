@@ -6,12 +6,9 @@
       // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
       #Actividad                
       <ActividadController :cuestionario="cuestionario"/>
-
 </template>
-
 <script>
 import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
-
 export default {
   name: 'ActividadDidactica',
   components: {
