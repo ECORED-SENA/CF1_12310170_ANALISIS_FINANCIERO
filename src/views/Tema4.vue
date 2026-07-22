@@ -17,7 +17,13 @@
       .row
         #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 4.1 Concepto de análisis y diagnóstico financiero
-      p(data-aos="fade-left") El análisis financiero permite conocer la situación económica y financiera de la empresa mediante la revisión e interpretación de los estados financieros. Su resultado es el diagnóstico financiero, que identifica fortalezas, riesgos y aspectos por mejorar para formular recomendaciones. (Ortiz Anaya, 2011; García Serna, 2009).
+      .row.justify-content-center.mb-4(data-aos="fade-left")
+        .col-lg-12
+          .d-flex.flex-column.flex-lg-row.align-items-center
+            .flex-shrink-0.mb-3.mb-lg-0.pe-lg-4
+              img(src='@/assets/curso/temas/bg/lineas.svg', style="width: 80px")
+            .flex-grow-1.text-center.text-lg-start
+              p.mb-0 El análisis financiero permite conocer la situación económica y financiera de la empresa mediante la revisión e interpretación de los estados financieros. Su resultado es el diagnóstico financiero, que identifica fortalezas, riesgos y aspectos por mejorar para formular recomendaciones. (Ortiz Anaya, 2011; García Serna, 2009).
       p(data-aos="fade-left") Con el fin de diferenciar ambos conceptos, se presenta la siguiente comparación entre análisis y diagnóstico financieros.
       //- Inicio Tarjetas
       .row.justify-content-center.mt-5.mb-5(data-aos="fade-left")

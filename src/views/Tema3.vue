@@ -6,12 +6,12 @@
         .titulo-principal__numero
           span 3
         h1 Procesamiento y visualización de información financiera
-      .row.mb-5.justify-content-center.align-items-center
-          .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
-            figure.mb-0.text-center
-              img(src='@/assets/curso/temas/t3/img1.png' style="width: 500px").m-auto
-          .col-12.col-lg-7.order-2.order-lg-1.p-4(data-aos="fade-right")
-            p Las herramientas digitales facilitan la organización, cálculo, validación y presentación de información financiera. Las hojas electrónicas permiten estructurar datos y aplicar fórmulas, mientras que Power BI ayuda a crear informes visuales y tableros para analizar tendencias, variaciones y resultados de forma comprensible. (Microsoft Learn, 2026)
+      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
+        .bloque-texto-g__img(
+          :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/img1.png')})` }")
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Las herramientas digitales facilitan la organización, cálculo, validación y presentación de información financiera. Las hojas electrónicas permiten estructurar datos y aplicar fórmulas, mientras que Power BI ayuda a crear informes visuales y tableros para analizar tendencias, variaciones y resultados de forma comprensible. (Microsoft Learn, 2026)
+      
       Separador
       //- Inicio Tema3.1
       .row
@@ -296,7 +296,7 @@
           .row.align-items-start.mb-3(data-aos="fade-left")
             .col-lg
               p.mb-0.bg-color-4.p-4 Aunque las ventas aumentaron 22,2 %, el costo de ventas creció 29,6 %. Esto indica que el crecimiento de los ingresos no se reflejó en una mayor utilidad neta, porque los costos aumentaron en mayor proporción. Esta lectura inicial servirá como base para el análisis financiero del siguiente capítulo.
-          .row.align-items-start.mb-10(data-aos="fade-left")  
+          .row.align-items-center.mb-10(data-aos="fade-left")
             .col-lg-auto
               img.d-none.d-lg-flex(src="@/assets/curso/temas/bg/lineas.svg", style="width: 90px").mx-auto
             .col-lg
